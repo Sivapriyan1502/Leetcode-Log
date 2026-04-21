@@ -43,6 +43,3 @@ Each problem is stored with:
 
 ---
 
-## 💡 Note
-
-This repository is auto-updated using LeetHub. Some solutions may not include detailed explanations (yet).
