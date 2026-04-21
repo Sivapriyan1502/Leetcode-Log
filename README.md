@@ -46,3 +46,15 @@ Each problem is stored with:
 ## 💡 Note
 
 This repository is auto-updated using LeetHub. Some solutions may not include detailed explanations (yet).
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Sivapriyan1502/Dev-log/tree/master/0026-remove-duplicates-from-sorted-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Sivapriyan1502/Dev-log/tree/master/0026-remove-duplicates-from-sorted-array) |
+<!---LeetCode Topics End-->
