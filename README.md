@@ -1,4 +1,4 @@
-#  Dev-Log
+#  Leetcode-Log
 
 This repository contains my solutions to problems from LeetCode, automatically synced using LeetHub.
 
