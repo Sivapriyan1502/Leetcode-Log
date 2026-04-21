@@ -25,7 +25,7 @@ Each problem is stored with:
 
 | Difficulty | Count |
 |------------|------|
-| Easy       | X    |
+| Easy       | 8    |
 | Medium     | X    |
 | Hard       | X    |
 
