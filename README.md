@@ -52,6 +52,7 @@ This repository is auto-updated using LeetHub. Some solutions may not include de
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Sivapriyan1502/Dev-log/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sivapriyan1502/Dev-log/tree/master/0026-remove-duplicates-from-sorted-array) |
 ## Two Pointers
 |  |
@@ -66,4 +67,8 @@ This repository is auto-updated using LeetHub. Some solutions may not include de
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Sivapriyan1502/Dev-log/tree/master/0021-merge-two-sorted-lists) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Sivapriyan1502/Dev-log/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
