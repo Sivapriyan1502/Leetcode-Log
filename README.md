@@ -57,4 +57,12 @@ This repository is auto-updated using LeetHub. Some solutions may not include de
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sivapriyan1502/Dev-log/tree/master/0026-remove-duplicates-from-sorted-array) |
+## Linked List
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Sivapriyan1502/Dev-log/tree/master/0021-merge-two-sorted-lists) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Sivapriyan1502/Dev-log/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
