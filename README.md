@@ -43,7 +43,7 @@ Each problem is stored with:
 
 ---
 
-``
+
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Two Pointers
@@ -59,4 +59,3 @@ Each problem is stored with:
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sivapriyan1502/Dev-log/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
-``

@@ -1,0 +1,23 @@
+name: Remove LeetHub Junk
+on:
+  push:
+    branches: [ README ]
+
+jobs:
+  remove-topics:
+    runs-on: ubuntu-latest
+    # Only runs if the commit came from LeetHub (which usually includes 'Time' or 'Runtime')
+    if: contains(github.event.head_commit.message, 'Time') || contains(github.event.head_commit.message, 'Runtime')
+    steps:
+      - uses: actions/checkout@v4
+      - name: Delete Topics Section
+        run: |
+          # This command searches for the heading and deletes it
+          sed -i '/## LeetCode Topics/d' README.md
+      - name: Commit & Push
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add README.md
+          git commit -m "chore: auto-clean README" || exit 0
+          git push
