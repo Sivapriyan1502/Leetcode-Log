@@ -58,4 +58,12 @@ Each problem is stored with:
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sivapriyan1502/Dev-log/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Math
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/Sivapriyan1502/Dev-log/tree/master/0069-sqrtx) |
+## Binary Search
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/Sivapriyan1502/Dev-log/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
