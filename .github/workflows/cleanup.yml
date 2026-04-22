@@ -16,13 +16,16 @@ jobs:
 
       - name: Delete Topics Section
         run: |
-          # This deletes any line containing "LeetCode Topics"
-          sed -i '/LeetCode Topics/d' README.md
+          # This version looks for ANY of the common LeetHub headers 
+          # and deletes that line PLUS everything following it to the end of the file.
+          sed -i '/## LeetCode Topics/,$d' README.md
+          sed -i '/### LeetCode Topics/,$d' README.md
+          # Adding a specific check for the headers seen in your screenshot
+          sed -i '/## Two Pointers/,$d' README.md
           
       - name: Commit & Push
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add README.md
-          # This line prevents the bot from failing if there's nothing to clean
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-clean README" && git push)
