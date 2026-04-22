@@ -1,4 +1,4 @@
-name: Remove LeetHub Junk
+name: Auto-Sync Stats and Cleanup
 on:
   push:
     branches: [ main ]
@@ -7,25 +7,33 @@ permissions:
   contents: write
 
 jobs:
-  remove-topics:
+  build:
     runs-on: ubuntu-latest
+    # Prevents the action from running in an infinite loop when the bot pushes
+    if: github.event.head_commit.message != 'chore: update stats and clean junk'
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Delete Topics Section
+      - name: Update Stats and Scrub Junk
         run: |
-          # This version looks for ANY of the common LeetHub headers 
-          # and deletes that line PLUS everything following it to the end of the file.
-          sed -i '/## LeetCode Topics/,$d' README.md
-          sed -i '/### LeetCode Topics/,$d' README.md
-          # Adding a specific check for the headers seen in your screenshot
-          sed -i '/## Two Pointers/,$d' README.md
-          
+          # 1. Count the problems (counts folders inside Easy/Medium/Hard)
+          EASY_COUNT=$(find . -type d -path "*/Easy" | wc -l)
+          MEDIUM_COUNT=$(find . -type d -name "Medium" | wc -l)
+          HARD_COUNT=$(find . -type d -name "Hard" | wc -l)
+
+          # 2. Update the numbers in the table using the hidden markers
+          sed -i "s/.*/$EASY_COUNT/" README.md
+          sed -i "s/.*/$MEDIUM_COUNT/" README.md
+          sed -i "s/.*/$HARD_COUNT/" README.md
+
+          # 3. Wipe everything between the LeetCode Topics comments
+          sed -i '//,//{//!d}' README.md
+
       - name: Commit & Push
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-clean README" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update stats and clean junk" && git push)

@@ -25,12 +25,11 @@ Each problem is stored with:
 
 | Difficulty | Count |
 |------------|------|
-| Easy       | 10    |
-| Medium     | X    |
-| Hard       | X    |
+| Easy       | 10|
+| Medium     | 0|
+| Hard       | 0|
 
-*(Will update as I progress)*
-
+*(Updated automatically)*
 ## 🎯 Goals
 
 - Solve 300+ problems
