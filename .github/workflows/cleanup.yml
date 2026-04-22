@@ -1,7 +1,7 @@
 name: Remove LeetHub Junk
 on:
   push:
-    branches: [ README ]
+    branches: [ main ]
 
 jobs:
   remove-topics:
