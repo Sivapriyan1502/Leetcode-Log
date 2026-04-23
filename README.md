@@ -52,5 +52,10 @@ Each problem is stored with:
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Sivapriyan1502/Dev-log/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/Sivapriyan1502/Dev-log/tree/master/0069-sqrtx) |
+## Array
+|  |
+| ------- |
+| [0035-search-insert-position](https://github.com/Sivapriyan1502/Dev-log/tree/master/0035-search-insert-position) |
 <!---LeetCode Topics End-->
