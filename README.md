@@ -48,6 +48,7 @@ Each problem is stored with:
 ## Math
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Sivapriyan1502/Dev-log/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/Sivapriyan1502/Dev-log/tree/master/0069-sqrtx) |
 ## Binary Search
 |  |
@@ -63,6 +64,7 @@ Each problem is stored with:
 |  |
 | ------- |
 | [0058-length-of-last-word](https://github.com/Sivapriyan1502/Dev-log/tree/master/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/Sivapriyan1502/Dev-log/tree/master/0067-add-binary) |
 ## Hash Table
 |  |
 | ------- |
@@ -79,4 +81,12 @@ Each problem is stored with:
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Sivapriyan1502/Dev-log/tree/master/0169-majority-element) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/Sivapriyan1502/Dev-log/tree/master/0067-add-binary) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/Sivapriyan1502/Dev-log/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
