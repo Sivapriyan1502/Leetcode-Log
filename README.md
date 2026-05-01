@@ -59,6 +59,7 @@ Each problem is stored with:
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/Sivapriyan1502/Dev-log/tree/master/0035-search-insert-position) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Sivapriyan1502/Dev-log/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/Sivapriyan1502/Dev-log/tree/master/0169-majority-element) |
 ## String
 |  |
@@ -89,4 +90,8 @@ Each problem is stored with:
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Sivapriyan1502/Dev-log/tree/master/0067-add-binary) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Sivapriyan1502/Dev-log/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
