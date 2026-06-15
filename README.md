@@ -94,4 +94,12 @@ Each problem is stored with:
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sivapriyan1502/Dev-log/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Linked List
+|  |
+| ------- |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Sivapriyan1502/Dev-log/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+## Two Pointers
+|  |
+| ------- |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Sivapriyan1502/Dev-log/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 <!---LeetCode Topics End-->
