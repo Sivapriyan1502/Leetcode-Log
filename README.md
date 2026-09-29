@@ -48,6 +48,7 @@ Each problem is stored with:
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Sivapriyan1502/Dev-log/tree/master/0002-add-two-numbers) |
 | [0067-add-binary](https://github.com/Sivapriyan1502/Dev-log/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/Sivapriyan1502/Dev-log/tree/master/0069-sqrtx) |
 ## Binary Search
@@ -97,9 +98,14 @@ Each problem is stored with:
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Sivapriyan1502/Dev-log/tree/master/0002-add-two-numbers) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Sivapriyan1502/Dev-log/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Sivapriyan1502/Dev-log/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Sivapriyan1502/Dev-log/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
